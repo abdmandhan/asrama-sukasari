@@ -15,12 +15,11 @@
             </div>
         </div>
         <div class="row">
-            @include('components.goals',['transision'=>'fadeInLeft','imgSrc'=>'img/svg_icon/1.svg','title'=>'Leadership','desc'=>'Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.'])
-            @include('components.goals',['transision'=>'fadeInUp','imgSrc'=>'img/svg_icon/2.svg','title'=>'Family','desc'=>'Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.'])
-            @include('components.goals',['transision'=>'fadeInRight','imgSrc'=>'img/svg_icon/3.svg','title'=>'Religion','desc'=>'Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.'])
+            @foreach ($goals as $item)
+            @if (!$item->hidden)
+            @include('components.goals',['transision'=>$item->transision,'imgSrc'=>$item->imgSrc,'title'=>$item->title,'desc'=>$item->desc])
+            @endif
+            @endforeach
         </div>
     </div>
 </div>
