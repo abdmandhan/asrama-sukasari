@@ -12,7 +12,7 @@
                             maximize timely deliverables for real-time schemas.</p>
                         <br>
                         <a class="boxed-btn3 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s"
-                            href="portfolio.html">Selengkapnya</a>
+                            href="#">Selengkapnya</a>
 
                     </div>
                     <div class="video_watch d-flex align-items-center">
