@@ -14,7 +14,8 @@ class DatabaseSeeder extends Seeder
         $this->call([
             GoalSeeder::class,
             ActivitySeeder::class,
-            TeamSeeder::class
+            TeamSeeder::class,
+            ImpressionSeeder::class
         ]);
     }
 }
