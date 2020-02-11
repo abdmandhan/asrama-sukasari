@@ -14,7 +14,8 @@
         </div>
         <div class="team_title text-center">
             <h3>{{ $name }}</h3>
-            <p>{{ $position }}</p>
+            <p><strong>{{ $position }}</strong></p>
+            <p>{{ $majors }}</p>
         </div>
     </div>
 </div>

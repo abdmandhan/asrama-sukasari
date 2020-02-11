@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Model\Activity;
 use App\Model\Goal;
+use App\Model\Team;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -12,9 +13,11 @@ class PagesController extends Controller
     {
         $goals = Goal::all();
         $activities = Activity::all();
+        $teams = Team::all();
 
         return view('welcome')
             ->with('activities', $activities)
+            ->with('teams', $teams)
             ->with('goals', $goals);
     }
 

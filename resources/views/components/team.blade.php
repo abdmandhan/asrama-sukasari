@@ -11,14 +11,9 @@
             </div>
         </div>
         <div class="row">
-            @include('components.teamperson',['imgSrc'=>'img/team/1.png','facebookSrc'=>'#','twitterSrc'=>'#','instagramSrc'=>'#','name'=>'Teja
-            Wahyu Ilham','position'=>'Coordinator Asrama'])
-            @include('components.teamperson',['imgSrc'=>'img/team/1.png','facebookSrc'=>'#','twitterSrc'=>'#','instagramSrc'=>'#','name'=>'Teja
-            Wahyu Ilham','position'=>'Coordinator Asrama'])
-            @include('components.teamperson',['imgSrc'=>'img/team/1.png','facebookSrc'=>'#','twitterSrc'=>'#','instagramSrc'=>'#','name'=>'Teja
-            Wahyu Ilham','position'=>'Coordinator Asrama'])
-            @include('components.teamperson',['imgSrc'=>'img/team/1.png','facebookSrc'=>'#','twitterSrc'=>'#','instagramSrc'=>'#','name'=>'Teja
-            Wahyu Ilham','position'=>'Coordinator Asrama'])
+            @foreach ($teams as $item)
+            @include('components.teamperson',['imgSrc'=>$item->imgSrc,'facebookSrc'=>$item->facebookSrc,'twitterSrc'=>$item->twitterSrc,'instagramSrc'=>$item->instagramSrc,'name'=>$item->name,'position'=>$item->position,'majors'=>$item->majors])
+            @endforeach
 
         </div>
     </div>
