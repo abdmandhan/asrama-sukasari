@@ -6,7 +6,7 @@
                 <div class="row align-items-center no-gutters">
                     <div class="col-xl-2 col-lg-2">
                         <div class="logo-img">
-                            <a href="index.html">
+                            <a href="{{ route('/')}}">
                                 <img src="img/logo-sv.png" alt="" width="100%" class="img-mobile">
                             </a>
                         </div>

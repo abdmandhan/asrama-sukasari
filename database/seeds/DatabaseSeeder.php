@@ -15,7 +15,9 @@ class DatabaseSeeder extends Seeder
             GoalSeeder::class,
             ActivitySeeder::class,
             TeamSeeder::class,
-            ImpressionSeeder::class
+            ImpressionSeeder::class,
+            CategorySeeder::class,
+            BlogSeeder::class,
         ]);
     }
 }

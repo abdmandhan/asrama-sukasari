@@ -17,7 +17,7 @@ Route::get('/', 'PagesController@index')->name('/');
 Route::get('/contact', 'PagesController@contact')->name('contact');
 Route::get('/about', 'PagesController@about')->name('about');
 
-Route::get('/blogs', 'BlogsController@blogs')->name('blogs');
-Route::get('/blog', 'BlogsController@blog')->name('blog');
+Route::get('/blogs', 'PagesController@blogs')->name('blogs');
+Route::get('/blog', 'PagesController@blog')->name('blog');
 
 Route::get('/home', 'HomeController@index')->name('home');
