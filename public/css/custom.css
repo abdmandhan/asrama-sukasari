@@ -1,5 +1,13 @@
 @media only screen and (max-width: 768px) {
-  .img-mobile {
-    width: 25%;
-  }
+    .img-mobile {
+        width: 25%;
+    }
+    .img-footer {
+        width: 25%;
+    }
+}
+
+.img-galery {
+    padding-top: 150px;
+    padding-bottom: 150px;
 }

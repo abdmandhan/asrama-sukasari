@@ -4,7 +4,7 @@
 @include('components.slider')
 @include('components.service')
 @include('components.about')
-@include('components.portofolio')
+@include('components.galeries')
 @include('components.how')
 @include('components.team')
 @include('components.testimonial')

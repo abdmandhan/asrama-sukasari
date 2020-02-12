@@ -6,7 +6,7 @@
                 <div class="col-lg-2 col-md-3">
                     <div class="footer_logo wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
                         <a href="{{ route('/')}}">
-                            <img src="{{ asset('img/logo_n.png') }}" alt="" width="75%">
+                            <img src="{{ asset('img/logo_n.png') }}" alt="" width="75%" class="img-footer">
                         </a>
                     </div>
                 </div>
