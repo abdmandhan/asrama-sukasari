@@ -18,6 +18,7 @@
                                     <li><a class="active" href="{{ route('/') }}">home</a></li>
                                     <li><a class="active" href="{{ route('blogs') }}">blog</a></li>
                                     <li><a class="active" href="{{ route('contact') }}">Contact</a></li>
+                                    <li><a class="active" href="{{ route('login') }}">Login</a></li>
                                 </ul>
                             </nav>
                         </div>
