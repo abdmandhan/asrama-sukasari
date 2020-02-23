@@ -68,6 +68,9 @@
                                     class="btn btn-brand btn-elevate kt-login__btn-primary" type="submit">
                                     {{ __('Register') }}
                                 </button>&nbsp;&nbsp;
+                                <button id="kt_login_signup_cancel" class="btn btn-pill kt-login__btn-secondary">
+                                    Cancel
+                                </button>
                             </div>
                         </form>
                     </div>
