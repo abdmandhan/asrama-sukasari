@@ -28,7 +28,6 @@
     {{-- <link rel="stylesheet" href="{{ asset('css/responsive.css') }}"> --}}
 
     <link rel="shortcut icon" href="{{asset('img/logo_n.png')}}" />
-
 </head>
 
 <body>

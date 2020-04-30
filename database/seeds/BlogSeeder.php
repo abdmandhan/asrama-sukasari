@@ -23,7 +23,7 @@ class BlogSeeder extends Seeder
                 "categoryId" => 1,
             ],
             [
-                "userId" => 1,
+                "userId" => 2,
                 "imgSrc" => "img/blog/single_blog_2.png",
                 "slug" => str_slug('Google inks pact for new 35-storey office', '-'),
                 "title" => "Google inks pact for new 35-storey office",
@@ -32,7 +32,7 @@ class BlogSeeder extends Seeder
                 "categoryId" => 1,
             ],
             [
-                "userId" => 1,
+                "userId" => 3,
                 "imgSrc" => "img/blog/single_blog_3.png",
                 "slug" => str_slug('Google inks pact for new 35-storey office', '-'),
                 "title" => "Google inks pact for new 35-storey office",
@@ -41,7 +41,7 @@ class BlogSeeder extends Seeder
                 "categoryId" => 1,
             ],
             [
-                "userId" => 1,
+                "userId" => 2,
                 "imgSrc" => "img/blog/single_blog_4.png",
                 "slug" => str_slug('Google inks pact for new 35-storey office', '-'),
                 "title" => "Google inks pact for new 35-storey office",
@@ -59,7 +59,7 @@ class BlogSeeder extends Seeder
                 "categoryId" => 1,
             ],
             [
-                "userId" => 1,
+                "userId" => 3,
                 "imgSrc" => "img/blog/single_blog_1.png",
                 "slug" => str_slug('Google inks pact for new 35-storey office', '-'),
                 "title" => "Google inks pact for new 35-storey office",
@@ -77,7 +77,7 @@ class BlogSeeder extends Seeder
                 "categoryId" => 1,
             ],
             [
-                "userId" => 1,
+                "userId" => 3,
                 "imgSrc" => "img/blog/single_blog_3.png",
                 "slug" => str_slug('Google inks pact for new 35-storey office', '-'),
                 "title" => "Google inks pact for new 35-storey office",
@@ -95,7 +95,7 @@ class BlogSeeder extends Seeder
                 "categoryId" => 1,
             ],
             [
-                "userId" => 1,
+                "userId" => 2,
                 "imgSrc" => "img/blog/single_blog_5.png",
                 "slug" => str_slug('Google inks pact for new 35-storey office', '-'),
                 "title" => "Google inks pact for new 35-storey office",

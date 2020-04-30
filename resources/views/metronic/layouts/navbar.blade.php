@@ -13,6 +13,38 @@
                     <h4 class="kt-menu__section-text">Menu</h4>
                     <i class="kt-menu__section-icon flaticon-more-v2"></i>
                 </li>
+                <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true"
+                    data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i
+                            class="kt-menu__link-icon flaticon2-contract"></i><span
+                            class="kt-menu__link-text">Menu</span><i
+                            class="kt-menu__ver-arrow la la-angle-right"></i></a>
+                    <div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+                        <ul class="kt-menu__subnav">
+                            <li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span
+                                    class="kt-menu__link"><span class="kt-menu__link-text">Menu</span></span></li>
+                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{ route('admin.blog.index')}}"
+                                    class="kt-menu__link "><i
+                                        class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span
+                                        class="kt-menu__link-text">Blogs</span></a></li>
+                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{ route('admin.goal.index')}}"
+                                    class="kt-menu__link "><i
+                                        class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span
+                                        class="kt-menu__link-text">Goals</span></a></li>
+                            <li class="kt-menu__item " aria-haspopup="true"><a
+                                    href="{{ route('admin.impression.index')}}" class="kt-menu__link "><i
+                                        class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span
+                                        class="kt-menu__link-text">Impression</span></a></li>
+                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{ route('admin.team.index')}}"
+                                    class="kt-menu__link "><i
+                                        class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span
+                                        class="kt-menu__link-text">Team</span></a></li>
+                            <li class="kt-menu__item " aria-haspopup="true"><a href="{{ route('admin.activity.index')}}"
+                                    class="kt-menu__link "><i
+                                        class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i><span
+                                        class="kt-menu__link-text">Activity</span></a></li>
+                        </ul>
+                    </div>
+                </li>
                 {{-- @include('components/menu',['mainMenu'=>'Migrasi','subMenu'=>[['name'=>'satu','link'=>'linksatu'],['name'=>'dua','link'=>'linkdua']]]) --}}
             </ul>
         </div>

@@ -9,7 +9,7 @@ use App\Model\Impression;
 use App\Model\Team;
 use Illuminate\Http\Request;
 
-class PagesController extends Controller
+class PageController extends Controller
 {
     public function index()
     {

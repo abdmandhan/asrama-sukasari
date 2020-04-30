@@ -9,4 +9,7 @@ class Impression extends Model
 {
     use SoftDeletes;
     protected $guarded = [];
+    protected $fillable = [
+        'impression_id', 'message', 'imgSrc', 'name', 'majorId',  'hidden'
+    ];
 }

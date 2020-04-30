@@ -6,7 +6,8 @@
         <div class="kt-header__brand " id="kt_header_brand">
             <div class="kt-header__brand-logo">
                 <a href="{{ route('/')}}">
-                    <img alt="Logo" src="{{asset('img/logo_n.png')}}" width="5%" />
+                    <h3><i>Asrama IPB Sukasari</i></h3>
+                    {{-- <img alt="Logo" src="{{asset('img/logo_n.png')}}" width="5%" /> --}}
                 </a>
             </div>
         </div>

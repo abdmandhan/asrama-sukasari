@@ -15,7 +15,8 @@
     <!--end::Fonts -->
 
     @stack('css')
-
+    <link href="{{asset('metronic/plugins/custom/fullcalendar/fullcalendar.bundle.css')}}" rel="stylesheet"
+        type="text/css" />
     <!--end::Page Custom Styles -->
 
     <!--begin::Global Theme Styles(used by all pages) -->
@@ -70,8 +71,19 @@
 </script>
 
 <!-- end::Global Config -->
+<script src="{{asset('metronic/plugins/custom/fullcalendar/fullcalendar.bundle.js')}}" type="text/javascript"></script>
+<script src="//maps.google.com/maps/api/js?key=AIzaSyBTGnKT7dt597vo9QgeQ7BFhvSRP4eiMSM" type="text/javascript">
+</script>
+<script src="{{asset('metronic/plugins/custom/gmaps/gmaps.js')}}" type="text/javascript"></script>
+
+<!--end::Page Vendors -->
+
+<!--begin::Page Scripts(used by this page) -->
+<script src="{{asset('metronic/js/pages/dashboard.js')}}" type="text/javascript"></script>
+
 
 <!--begin::Global Theme Bundle(used by all pages) -->
+
 <script src="{{asset('metronic/plugins/global/plugins.bundle.js')}}" type="text/javascript"></script>
 <script src="{{asset('metronic/js/scripts.bundle.js')}}" type="text/javascript"></script>
 

@@ -14,11 +14,11 @@ class CreateImpressionsTable extends Migration
     public function up()
     {
         Schema::create('impressions', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->bigIncrements('impression_id');
             $table->text('message');
             $table->string('imgSrc');
             $table->string('name');
-            $table->string('majors');
+            $table->string('majorId');
             $table->boolean('hidden')->default(0);
             $table->softDeletes();
             $table->timestamps();

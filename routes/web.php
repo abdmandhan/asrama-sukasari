@@ -11,13 +11,23 @@
 |
 */
 
-Auth::routes();
 
-Route::get('/', 'PagesController@index')->name('/');
-Route::get('/contact', 'PagesController@contact')->name('contact');
-Route::get('/about', 'PagesController@about')->name('about');
+Route::get('/', 'PageController@index')->name('/');
+Route::get('/contact', 'PageController@contact')->name('contact');
+Route::get('/about', 'PageController@about')->name('about');
 
-Route::get('/blogs', 'PagesController@blogs')->name('blogs');
-Route::get('/blog', 'PagesController@blog')->name('blog');
+Route::get('/blogs', 'PageController@blogs')->name('blogs');
+Route::get('/blog', 'PageController@blog')->name('blog');
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::namespace('Admin')->prefix('admin')->name('admin.')->middleware('auth')->group(function () {
+    Route::resource('blog', 'BlogController');
+    Route::resource('activity', 'ActivityController');
+    Route::resource('goal', 'GoalController');
+    Route::resource('impression', 'ImpressionController');
+    Route::resource('team', 'TeamController');
+});
+
+Auth::routes();

@@ -16,3 +16,13 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::namespace('API')->group(function () {
+    Route::prefix('view')->name('view.')->group(function () {
+        Route::post('blog', 'ViewController@blog')->name('blog');
+        Route::post('goal', 'ViewController@goal')->name('goal');
+        Route::post('impression', 'ViewController@impression')->name('impression');
+        Route::post('team', 'ViewController@team')->name('team');
+        Route::post('activity', 'ViewController@activity')->name('activity');
+    });
+});

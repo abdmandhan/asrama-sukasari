@@ -21,7 +21,7 @@ class ImpressionSeeder extends Seeder
                 Fusce ac mattis nulla. Morbi eget ornare dui.",
                 "imgSrc" => "img/testmonial/thumb.png",
                 "name" => "Abdurrahman Ramadhan",
-                "majors" => "Teknik Komputer",
+                "majorId" => 4,
             ],
             [
                 "message" => "Donec imperdiet congue orci consequat mattis. Donec
@@ -31,7 +31,7 @@ class ImpressionSeeder extends Seeder
                 Fusce ac mattis nulla. Morbi eget ornare dui.",
                 "imgSrc" => "img/testmonial/thumb.png",
                 "name" => "Falyan Zuril",
-                "majors" => "Teknik Komputer",
+                "majorId" => 4,
             ],
         ];
 

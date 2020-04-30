@@ -20,7 +20,7 @@ class TeamSeeder extends Seeder
                 "instagramSrc" => "#",
                 "name" => "Teja Wahyu Ilham",
                 "position" => "Coordinator Asrama",
-                "majors" => "Analisis Kimia",
+                "majorId" => 12,
             ],
             [
                 "imgSrc" => "img/team/2.png",
@@ -29,7 +29,7 @@ class TeamSeeder extends Seeder
                 "instagramSrc" => "#",
                 "name" => "Vicky Saputra",
                 "position" => "Kepenghunian & Kerumahtanggaan",
-                "majors" => "Manajemen Agribisnis",
+                "majorId" => 10,
             ],
             [
                 "imgSrc" => "img/team/3.png",
@@ -38,7 +38,7 @@ class TeamSeeder extends Seeder
                 "instagramSrc" => "#",
                 "name" => "William Wisnu",
                 "position" => "Bendahara",
-                "majors" => "Manajemen Industri",
+                "majorId" => 11,
             ],
             [
                 "imgSrc" => "img/team/4.png",
@@ -47,7 +47,7 @@ class TeamSeeder extends Seeder
                 "instagramSrc" => "#",
                 "name" => "Rehanta Alpharel",
                 "position" => "Sekretaris",
-                "majors" => "Teknik Komputer",
+                "majorId" => 4,
             ],
 
         ];

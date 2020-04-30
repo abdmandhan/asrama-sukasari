@@ -9,14 +9,10 @@
 
 <div class="kt-content  kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" id="kt_content">
 
-    @include('components.subheader',['subTitle'=>'Dashboard','subName'=>'Application'])
+    @include('components.subheader',['subTitle'=>'Impression','subName'=>'Application'])
 
-    <!-- begin:: Content -->
-    <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
-        <img src="{{ url('img/blog/single_blog_1.png')}}" alt="" srcset="">
-    </div>
+    @include('metronic.content')
 
-    <!-- end:: Content -->
 </div>
 
 @endsection
@@ -32,6 +28,7 @@
 
 <!--begin::Page Scripts(used by this page) -->
 <script src="{{asset('metronic/js/pages/dashboard.js')}}" type="text/javascript"></script>
+@include('scripts.dt-impression')
 
 <!--end::Page Scripts -->
 @endpush
